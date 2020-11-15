@@ -13,16 +13,22 @@
 
 **5. Explain module, name-spacing, difference between class methods and instance methods?** 
 
-Example: `EcommerceApp::CLI.new.start`
-`EcommerceApp`(a module): We need this to distinguish our CLI class from other modules if we have any
-`CLI`(a class)
-`.new`(initialize): a class method, how do you tell? look at the receiver, which is the left to the dot "CLI.new"
-`.start`: an instance method
-`::`double colon, name-spacing, nested within the module of EcommerceApp
-	Class method VS Instance method short read
-	- A method provides functionality to an Object
-	- Class method calls on the class, provides functionality to the CLASS itself
-	- Instance method calls on the instance OF the class, provides functionality to ONE instance of the class
+**Example:** `EcommerceApp::CLI.new.start`
+
+`EcommerceApp`**(a module)**: We need this to distinguish our CLI class from other modules if we have any
+
+`CLI`**(a class)**
+
+`.new`**(initialize)**: a **class method**, how do you tell? look at the receiver, which is the left to the dot "CLI.new"
+
+`.start`: an **instance method**
+
+`::`double colon, **name-spacing**, nested within the module of `EcommerceApp`
+
+**Class method VS Instance method** [short read](https://dev.to/adamlombard/ruby-class-methods-vs-instance-methods-4aje)
+- A method provides functionality to an Object
+- Class method calls on the class, provides functionality to the CLASS itself
+- Instance method calls on the instance OF the class, provides functionality to ONE instance of the class
 
 6. "self is implicit" meaning?
 	- Every method you call is received by some object, the object receiving the method call is the receiver. 
