@@ -5,8 +5,7 @@
 
 **2. What is a shebang line? What does it do?** _It is telling us where to find the library we are going to use to run this code_
   
-**3. What does require_relative do?** 
-	Use require_relative when you are referring to a file that is relative to the current file you are working on (basically, within the same project directory)
+**3. What does require_relative do?** _Use require_relative when you are referring to a file that is relative to the current file you are working on (basically, within the same project directory)_
   
 **4. Explain your executable file**
 
@@ -29,15 +28,16 @@
 - Class method calls on the class, provides functionality to the CLASS itself
 - Instance method calls on the instance OF the class, provides functionality to ONE instance of the class
 
-6. "self is implicit" meaning?
-	- Every method you call is received by some object, the object receiving the method call is the receiver. 
-	- If you mention the object in the call, that's "explicit", if you call a method in the same object as the context without mentioning "self", that's "implicit".
-7. Truthy VS Falsey
-	In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy).
+**6. "self is implicit" meaning?**
+- Every method you call is received by some object, the object receiving the method call is the receiver. 
+- If you mention the object in the call, that's "explicit", if you call a method in the same object as the context without mentioning "self", that's "implicit".
 
- [] Ruby Essentials (From the checklist given)
-1. Basic control flow - how "if" statements work
-	Essentially check whether a condition is true or not
+**7. Truthy VS Falsey**
+In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy).
+
+## Ruby Essentials (From the checklist given)
+**1. Basic control flow - how "if" statements work**
+_Essentially check whether a condition is true or not_
 2. Variable scopes - method, instance and class
 	Scope refers to what variables are available at that time. 
 	More info: Ruby Scopes
