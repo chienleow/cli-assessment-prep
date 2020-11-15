@@ -1,10 +1,9 @@
 # CLI Assessment Prep
 
 ## Possible CLI Questions
-**1. What is a gem?** A packaged Ruby application or library
+**1. What is a gem?** _A packaged Ruby application or library_
 
-**2. What is a shebang line? What does it do?** 
-	It is telling us where to find the library we gonna use to run this code
+**2. What is a shebang line? What does it do?** _It is telling us where to find the library we are going to use to run this code_
   
 **3. What does require_relative do?** 
 	Use require_relative when you are referring to a file that is relative to the current file you are working on (basically, within the same project directory)
