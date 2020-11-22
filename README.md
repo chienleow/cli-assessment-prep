@@ -40,10 +40,9 @@ In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is
 Essentially check whether a condition is true or not
 
 **2. Variable scopes - method, instance and class**<br />
-**Scope** refers to what variables are available at that time. <br />
-More info: [Ruby Scopes](https://www.rubyguides.com/2019/03/ruby-scope-binding/)<br />
-**Instance Variables:** Sharing data inside a Ruby object<br />
-**Local Variables:** The narrowest scope, defined inside the methods<br />
+**Scope** refers to what variables are available at that time. More info: [Ruby Scopes](https://www.rubyguides.com/2019/03/ruby-scope-binding/)<br />
+- **Instance Variables:** Sharing data inside a Ruby object<br />
+- **Local Variables:** The narrowest scope, defined inside the methods<br />
 <img src="https://user-images.githubusercontent.com/38739923/99895893-4407b780-2c59-11eb-82c0-178b1ca24eef.png" alt="Ruby Scopes Image" width="400">
 
 **3. Object instantiation - #new (and possibly #initialize)**<br />
