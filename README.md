@@ -1,4 +1,4 @@
-# CLI Assessment Prep
+# CLI Assessment Prep 👨🏻‍💻 👩🏻‍💻
 
 ## Possible CLI Questions
 **1. What is a gem?** _A packaged Ruby application or library_
