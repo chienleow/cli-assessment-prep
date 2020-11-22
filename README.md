@@ -32,7 +32,7 @@
 - Every method you call is received by some object, the object receiving the method call is the receiver. 
 - If you mention the object in the call, that's "explicit", if you call a method in the same object as the context without mentioning "self", that's "implicit".
 
-**7. Truthy VS Falsey**
+**7. Truthy VS Falsey**<br />
 In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy).
 
 ## Ruby Essentials (From the checklist given)
