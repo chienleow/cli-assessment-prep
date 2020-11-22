@@ -38,11 +38,13 @@ In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is
 ## Ruby Essentials (From the checklist given)
 **1. Basic control flow - how "if" statements work**
 _Essentially check whether a condition is true or not_
-2. Variable scopes - method, instance and class
-	Scope refers to what variables are available at that time. 
-	More info: Ruby Scopes
-Instance Variables: Sharing data inside a Ruby object
-Local Variables: The narrowest scope, defined inside the methods
+
+**2. Variable scopes - method, instance and class**
+**Scope** refers to what variables are available at that time. 
+More info: [Ruby Scopes](https://www.rubyguides.com/2019/03/ruby-scope-binding/)
+**Instance Variables:** Sharing data inside a Ruby object
+**Local Variables:** The narrowest scope, defined inside the methods
+
 
 3. Object instantiation - #new (and possibly #initialize)
 	- We create a new instance of a class by calling the method new on that class, we also say that we “instantiate” that object
@@ -60,7 +62,7 @@ Local Variables: The narrowest scope, defined inside the methods
 	Return: Return values
 7. Iterating through collections - at least using #each with a block
 
- [] Extras
+## Extras
 - Single Responsibility Principle
 		API Class - bring in external API here, instantiate my objects
 		Object Class (Listing/Category) - where objects are created and stored for user display
