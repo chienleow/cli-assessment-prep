@@ -36,28 +36,28 @@
 In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is truthy).
 
 ## Ruby Essentials (From the checklist given)
-**1. Basic control flow - how "if" statements work**
+**1. Basic control flow - how "if" statements work**<br />
 Essentially check whether a condition is true or not
 
-**2. Variable scopes - method, instance and class**
-**Scope** refers to what variables are available at that time. 
-More info: [Ruby Scopes](https://www.rubyguides.com/2019/03/ruby-scope-binding/)
-**Instance Variables:** Sharing data inside a Ruby object
-**Local Variables:** The narrowest scope, defined inside the methods
+**2. Variable scopes - method, instance and class**<br />
+**Scope** refers to what variables are available at that time. <br />
+More info: [Ruby Scopes](https://www.rubyguides.com/2019/03/ruby-scope-binding/)<br />
+**Instance Variables:** Sharing data inside a Ruby object<br />
+**Local Variables:** The narrowest scope, defined inside the methods<br />
 <img src="https://user-images.githubusercontent.com/38739923/99895893-4407b780-2c59-11eb-82c0-178b1ca24eef.png" alt="Ruby Scopes Image" width="400">
 
-**3. Object instantiation - #new (and possibly #initialize)**
+**3. Object instantiation - #new (and possibly #initialize)**<br />
 	- We create a new instance of a class by calling the method new on that class, we also say that we **“instantiate” that object**
 	- By calling `Person.new` we instantiate a new person object.
 
-**4. The meaning of the "self" keyword**
+**4. The meaning of the "self" keyword**<br />
 "Self" points to the object that "owns" the currently executing code
 
 **5. Method types - class vs. instance methods**
 (look above)
 **6. Method return types - knowing what methods return**
-[Learn.co Puts, Print & Return](https://learn.co/tracks/full-stack-web-development-v8/module-3-intro-to-ruby-development/section-4-methods/puts-and-return)
-The Differences Between Puts, Print & P
+[Learn.co Puts, Print & Return](https://learn.co/tracks/full-stack-web-development-v8/module-3-intro-to-ruby-development/section-4-methods/puts-and-return)<br />
+The Differences Between Puts, Print & P<br />
 - Puts: Every message has its own line
 - Print: Print without a newline
 - P: shows a more “raw” version of an object
