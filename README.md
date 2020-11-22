@@ -55,7 +55,7 @@ Essentially check whether a condition is true or not
 **5. Method types - class vs. instance methods**
 (look above)
 
-**6. Method return types - knowing what methods return**
+**6. Method return types - knowing what methods return**<br />
 [The Differences Between Puts, Print & P](https://learn.co/tracks/full-stack-web-development-v8/module-3-intro-to-ruby-development/section-4-methods/puts-and-return)<br />
 - **Puts:** Every message has its own line
 - **Print:** Print without a newline
