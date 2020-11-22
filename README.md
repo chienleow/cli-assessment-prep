@@ -37,36 +37,39 @@ In Ruby only false and nil are falsey. Everything else is truthy (yes, even 0 is
 
 ## Ruby Essentials (From the checklist given)
 **1. Basic control flow - how "if" statements work**
-_Essentially check whether a condition is true or not_
+Essentially check whether a condition is true or not
 
 **2. Variable scopes - method, instance and class**
 **Scope** refers to what variables are available at that time. 
 More info: [Ruby Scopes](https://www.rubyguides.com/2019/03/ruby-scope-binding/)
 **Instance Variables:** Sharing data inside a Ruby object
 **Local Variables:** The narrowest scope, defined inside the methods
-![Ruby Scopes Image](https://user-images.githubusercontent.com/38739923/99895893-4407b780-2c59-11eb-82c0-178b1ca24eef.png width="40")
+<img src="https://user-images.githubusercontent.com/38739923/99895893-4407b780-2c59-11eb-82c0-178b1ca24eef.png" alt="Ruby Scopes Image" width="400">
 
-3. Object instantiation - #new (and possibly #initialize)
-	- We create a new instance of a class by calling the method new on that class, we also say that we “instantiate” that object
-	- By calling Person.new we instantiate a new person object.
-4. The meaning of the "self" keyword
-	"Self" points to the object that "owns" the currently executing code
-5. Method types - class vs. instance methods
-	(look above)
-6. Method return types - knowing what methods return
-	Learn.co Puts, Print & Return
-	The Differences Between Puts, Print & P
-	Puts: Every message has its own line
-	Print: Print without a newline
-	P: shows a more “raw” version of an object
-	Return: Return values
-7. Iterating through collections - at least using #each with a block
+**3. Object instantiation - #new (and possibly #initialize)**
+	- We create a new instance of a class by calling the method new on that class, we also say that we **“instantiate” that object**
+	- By calling `Person.new` we instantiate a new person object.
+
+**4. The meaning of the "self" keyword**
+"Self" points to the object that "owns" the currently executing code
+
+**5. Method types - class vs. instance methods**
+(look above)
+**6. Method return types - knowing what methods return**
+[Learn.co Puts, Print & Return](https://learn.co/tracks/full-stack-web-development-v8/module-3-intro-to-ruby-development/section-4-methods/puts-and-return)
+The Differences Between Puts, Print & P
+- Puts: Every message has its own line
+- Print: Print without a newline
+- P: shows a more “raw” version of an object
+- Return: Return values
+
+**7. Iterating through collections - at least using #each with a block**
 
 ## Extras
 - Single Responsibility Principle
-		API Class - bring in external API here, instantiate my objects
-		Object Class (Listing/Category) - where objects are created and stored for user display
-		CLI Class (Command Line Interface) - the controller of my app, communicates with my user, handle user input/output
+	API Class - bring in external API here, instantiate my objects
+	Object Class (Listing/Category) - where objects are created and stored for user display
+	CLI Class (Command Line Interface) - the controller of my app, communicates with my user, handle user input/output
 - Separation of Concerns
 - DRY code (Don't repeat yourself)
 - Remember Object-Oriented: In Ruby, everything is an object.
