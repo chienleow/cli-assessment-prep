@@ -44,7 +44,7 @@ _Essentially check whether a condition is true or not_
 More info: [Ruby Scopes](https://www.rubyguides.com/2019/03/ruby-scope-binding/)
 **Instance Variables:** Sharing data inside a Ruby object
 **Local Variables:** The narrowest scope, defined inside the methods
-
+![Ruby Scopes Image](https://user-images.githubusercontent.com/38739923/99895893-4407b780-2c59-11eb-82c0-178b1ca24eef.png)
 
 3. Object instantiation - #new (and possibly #initialize)
 	- We create a new instance of a class by calling the method new on that class, we also say that we “instantiate” that object
