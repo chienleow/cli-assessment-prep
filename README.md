@@ -1,4 +1,5 @@
 # CLI Assessment Prep 👨🏻‍💻 👩🏻‍💻
+![Visits Badge](https://badges.pufler.dev/visits/chienleow/cli-assessment-prep)
 
 ## Possible CLI Questions
 **1. What is a gem?** _A packaged Ruby application or library_
