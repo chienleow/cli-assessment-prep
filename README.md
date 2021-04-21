@@ -1,7 +1,7 @@
 # CLI Assessment Prep 👨🏻‍💻 👩🏻‍💻
 ![Visits Badge](https://badges.pufler.dev/visits/chienleow/cli-assessment-prep)
 
-## Possible CLI Questions
+## Possible Assessment Questions
 **1. What is a gem?** _A packaged Ruby application or library_
 
 **2. What is a shebang line? What does it do?** _It is telling us where to find the library we are going to use to run this code_
